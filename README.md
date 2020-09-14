@@ -37,6 +37,18 @@ Batch update:
 ...)
 ```
 
+To get a Pandas DataFrame:
+```python
+>>> word_store.to_pandas().head()
+          word count documents                                          sentences
+0     document     2    [1234]  [This is a document., Another document may fol...
+1       follow     1    [1234]  [Another document may follow, with more intere...
+2         more     1    [1234]  [Another document may follow, with more intere...
+3  interesting     1    [1234]  [Another document may follow, with more intere...
+4        words     1    [1234]  [Another document may follow, with more intere...
+```
+
+
 To run tests:
 ```bash
 $ py.test -s tests/
