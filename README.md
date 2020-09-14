@@ -31,7 +31,10 @@ Batch update:
 ```python
 >>> from word_store.store import WordStore, batch_update_word_store
 >>> word_store = WordStore()
->>> word_store = batch_update_word_store(word_store, documents_path='documents/')
+>>> word_store = batch_update_word_store(
+...    word_store,
+...    documents_path='tests/fictures/documents/'
+...)
 ```
 
 To run tests:
