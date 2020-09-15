@@ -40,6 +40,8 @@ Batch update:
 To get a Pandas DataFrame:
 ```python
 >>> word_store.to_pandas().head()
+```
+```text
        word count                                          documents                                          sentences
 0      good    13  [tests/fixtures/documents/doc6.txt, tests/fixt...  [ Good morning., Fortunately, however, we've m...
 1   morning     2                [tests/fixtures/documents/doc6.txt]  [ Good morning., Outstanding career officials ...
