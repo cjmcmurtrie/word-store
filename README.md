@@ -48,6 +48,16 @@ To get a Pandas DataFrame:
 4  recently     2  [tests/fixtures/documents/doc6.txt, tests/fixt...  [As some of you know, Senator Lugar and I rece...
 ```
 
+To save to file:
+```python
+>>> word_store.save('word_store.json')
+```
+
+Then a previous instance can be loaded.
+```python
+>>> word_store = WordStore('word_store.json')
+```
+
 To run tests:
 ```bash
 $ py.test -s tests/
