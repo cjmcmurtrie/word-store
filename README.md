@@ -1,6 +1,6 @@
 ## WordStore
 
-Store interesting words from a table in Python.
+Store interesting words to a table in Python.
 
 ### Setup
 
